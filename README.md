@@ -1,18 +1,18 @@
 #  DevOps-Course-2024
-# # Overview
+## Overview
 This guide offers a detailed summary of my journey through a comprehensive DevOps course undertaken this year. Throughout the course, I gained hands-on experience with foundational tools and methodologies that are central to modern software development. From containerization with Docker to scalable application orchestration with Kubernetes, each topic provided valuable insights into creating robust, efficient, and automated workflows. The course emphasized integrating these tools into cohesive pipelines to streamline the software delivery lifecycle while enhancing collaboration and reliability across development and operations teams.
 
 Practical projects were a cornerstone of this learning experience, allowing me to apply theoretical knowledge to real-world scenarios. Whether building CI/CD pipelines with GitHub Actions, deploying serverless applications using Knative, or managing infrastructure with Terraform, these exercises deepened my technical skills and problem-solving abilities. This guide serves as a repository of the concepts, tools, and projects I explored, highlighting my growth as a DevOps practitioner and showcasing the strategic thinking required to deliver scalable, reliable solutions in a dynamic environment.
 
-# # Blog Summaries
+## Blog Summaries
 
-# # # 1. Docker in IoT: Containerizing Smart Devices
+### 1. Docker in IoT: Containerizing Smart Devices
 
 Docker’s role in the Internet of Things (IoT) ecosystem is transforming how smart devices are managed and scaled. By containerizing IoT applications, Docker simplifies the deployment of software on diverse architectures, from ARM-based Raspberry Pis to x86 gateways, ensuring consistency across devices. Its lightweight containers are ideal for resource-limited IoT devices, offering benefits such as streamlined updates, rollbacks, and enhanced security through application isolation. Traditional challenges like compatibility issues and bloated software stacks are addressed by Docker's portability and efficiency, making it a go-to tool for managing IoT ecosystems.
 
 Real-world applications of Docker in IoT demonstrate its versatility. Smart homes use Docker to manage devices like thermostats and lighting systems, while smart vehicles benefit from containerized applications for navigation and data collection. Additionally, smart city solutions, such as traffic lights, utilize Docker to facilitate smooth operations and data flow. Despite challenges like limited device resources and network constraints, Docker's advantages—when combined with best practices like optimized container sizes and automated deployments—make it an invaluable asset in enhancing IoT's scalability and functionality.
 
-# # # 2. Exploring Knative: Serverless Workloads on Kubernetes
+### 2. Exploring Knative: Serverless Workloads on Kubernetes
 
 Knative is an open-source platform designed to simplify the deployment of serverless applications in a Kubernetes environment. Built to manage and scale serverless workloads, Knative abstracts the complexity of Kubernetes, enabling developers to focus on writing code while it handles auto-scaling, event-driven execution, and resource management. Its two core components—Knative Serving and Knative Eventing—offer the ability to deploy stateless services with automatic scaling based on traffic and to manage event-driven architectures that can respond to external systems like databases or messaging platforms. Knative’s cloud-agnostic nature ensures portability, making it ideal for diverse infrastructure setups.
 
