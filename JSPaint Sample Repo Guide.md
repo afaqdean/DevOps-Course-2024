@@ -29,6 +29,7 @@ EXPOSE 3000
 
 # Start the development server
 CMD ["npm", "run", "dev"]
+```
 
 ## Check Docker Setup:
 To check if Docker is set up properly:
@@ -37,14 +38,17 @@ To check if Docker is set up properly:
    ```bash
    docker login
    docker ps -a
+   ```
 
 2. **Build the Docker Image:**
    ```bash
    docker build -t jspaint-dev .
+   ```
 
 3. **Run the container:**
    ```bash
    docker run -p 3000:3000 jspaint-dev
+   ```
 
 4. **Access the application:**
    Navigate to http://localhost:3000 to view the JSPaint app in your browser.
@@ -110,6 +114,8 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+```
+
 ### Explanation of Workflow:
 
 - **Linting and Testing:**  
@@ -127,6 +133,7 @@ jobs:
 
 - **Reliable Deployments:**  
   Ensures only fully tested code is deployed.
+  
 ### 3. Conclusion
 
 By combining Docker for containerization and GitHub Actions for CI/CD, the entire build and deployment process of JSPaint is streamlined. This setup ensures:
